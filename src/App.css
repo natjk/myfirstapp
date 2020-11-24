@@ -9,7 +9,6 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
   }
 }
 
@@ -21,7 +20,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(221, 163, 255);
 }
 
 .App-link {
@@ -35,4 +34,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+.stinky{
+  position: absolute;
+    top: 21%;
+    left: 44%;
+    text-shadow: 0px 2px black;
+}
+.amazingGirlfriend{
+  position: absolute;
+    top: 25%;
+    right: 35%;
+    text-shadow: 0px 2px black;
+
 }
